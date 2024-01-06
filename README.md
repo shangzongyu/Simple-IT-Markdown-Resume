@@ -1,17 +1,13 @@
-<div align="center">
-    <h1>
-        Simple-IT-Markdown-Resume
-    </h1>
-    <p align="center"> 一款适合 IT 行业的 Markdown 简约简历模版 </p>
-    <img src="assets/img/main.png">
-</div>
+# Simple-IT-Markdown-Resume
+
+一款适合 IT 行业的 Markdown 简约简历模版。
 
 ## 如何使用
 
 ### 准备
 
 1. 下载编辑器工具 [Typora](https://www.typora.io/)
-2. 配置简历使用的资源，打开 `Typora Settings -> Appearance -> Themes -> Open Theme Folder`，将项目 `style` 目录下文件复制到目录下。
+2. 配置简历使用的资源，打开 `Typora Settings -> Appearance -> Themes -> Open Theme Folder`，将项目 `style` 目录下文件复制到该目录下。
 
 ### 编辑简历
 
@@ -24,7 +20,10 @@
 - Resume Style Avatar：带头像的简历样式
 - Resume Style No Avatar：不带头像的简历样式
 
-> 简历命名推荐：姓名-岗位-电话.pdf
+打开 Typora -> File -> Export -> PDF, 就可以了。
+
+> - 导出没头像的需要把 `<div style="float:right;"><br><img src="assets/avatar.jpg" width="90"></div>` 去掉
+> - 简历命名推荐：姓名-岗位-电话.pdf
 
 ## 目录结构
 
@@ -47,9 +46,6 @@
     │  │  project-diagram-solid.svg
     │  │  rss-solid.svg
     │  │  tools-solid.svg
-    │  │
-    │  └─img                                      --README 图片文件夹
-    │          main.jpg
     │
     ├─result                                      --最后生成的结构
     │      resume-style-avatar.pdf

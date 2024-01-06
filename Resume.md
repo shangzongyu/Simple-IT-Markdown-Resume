@@ -1,9 +1,9 @@
 <center>
- <h1> TomShine </h1>
+ <h1> TomShine - Golang 工程师 </h1>
      <div>
          <span>
              <img src="assets/phone-solid.svg" width="18px">
-             15500000000
+             18612345678
          </span>
          ·
          <span>
@@ -23,6 +23,7 @@
      </div>
      <div style="float:right;"><br><img src="assets/avatar.jpg" width="90"></div>
  </center>
+
 
 ## <img src="assets/info-circle-solid.svg" width="30px">个人信息
 
